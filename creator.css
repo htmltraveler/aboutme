@@ -1,0 +1,350 @@
+.container
+{
+ width:1107px;
+ margin:0 auto;
+}
+
+
+ header
+ {
+ background-color: #EEEFF1 ;
+ padding:40px 0px 40px 0px ;
+
+ }
+
+ body,h2,h3,h1,h4,p
+ {
+ margin:0;
+ }
+
+header a
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.1em;
+color: #000000;
+text-decoration:none;
+text-transform:uppercase;
+text-align:right;
+margin-right: 42px ;
+}
+
+header .content
+{
+ display:flex;
+ justify-content:end;
+}
+
+.design
+{
+ background: #EEEFF1;
+ padding-top:154px ;
+ padding-bottom:153px ;
+}
+
+.design .content
+{
+ display:flex;
+ justify-content:space-between ;
+}
+
+.design h2
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+margin-bottom:60px;
+color: #000000;
+}
+
+.design p
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom:60px ;
+color: #727272;
+width:540px;
+
+}
+
+ button
+{
+ width: 225px;
+height: 65px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+outline:none;
+border:none;
+
+color: #FFFFFF;
+
+
+background: #34547A;
+}
+
+.features
+{
+ background-color: #34547A;
+ color:white;
+
+ 
+ padding:100px 0px 100px 0px;
+}
+
+.features .content
+{
+ display:flex;
+  justify-content:space-between;
+}
+
+.feature
+{
+ display:flex ;
+}
+
+.features img
+{
+ margin-right:20px;
+}
+
+.fetures h3
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+}
+
+.features p
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+
+.aboutme 
+{
+ padding:112px 0px 112px 0px ;
+ text-align:center;
+}
+
+.aboutme h2, .howiwork h2, .registration h2
+{
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+}
+
+.aboutme p
+{
+ width:540px;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+display: inline-block;
+margin-top:12px ;
+}
+
+.copyright
+{
+  background: #34547A;
+  padding-top:57px ;
+ padding-bottom:43px;
+}
+
+.copyright h3
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.copyright p
+{
+ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.designer
+{
+ padding-top:50px ;
+ padding-bottom:80px;
+}
+
+.designer .content
+{
+ display:flex;
+ justify-content:space-between ;
+}
+
+.designer  h2
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 59px;
+margin-bottom:30px;
+
+color: #34547A;
+}
+
+.designer h3
+{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+margin-bottom:30px;
+color: #000000;
+
+}
+
+.designer p
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 25px;
+width:436px;
+color: #000000;
+margin-bottom:40px;
+}
+
+.howiwork
+{
+ background: #EEEFF1;
+ padding-top:100px;
+ padding-bottom:100px;
+ text-align:center;
+}
+
+.howiwork p
+{
+ font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+width:534px;
+text-align:center;
+display: inline-block;
+padding-top:50px ;
+padding-bottom:57px;
+}
+
+.howiwork iframe
+{
+ display:block;
+ width: 1110px;
+height: 600px;
+ 
+}
+
+.registration
+{
+	background: #EEEFF1;
+	padding:0px 100px 0px 100px ;
+    text-align:center;
+} 
+ 
+.registration p
+{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+width:526px;
+color: #727272;
+display:inline-block;
+}
+
+.registration input
+{
+width: 255px;
+height: 50px;
+font-weight: 400;
+font-size: 14px;
+padding:0px 20px 0px 20px;
+box-sizing:border-box;
+border:none;
+color: #5F5D5D;
+outline:none;
+
+
+
+}
+
+.registration textarea
+{
+ width: 540px;
+height: 175px;
+border:none;
+outline:none;
+margin-top:20px;
+resize:none;
+
+}
+
+
+
+.registration
+{
+ display:block;
+}
+
+.registration button
+{ 
+display:block;
+margin:50px  auto 100px auto;
+}
+
+.registration form
+{
+ width:540px;
+ margin:0px auto;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:space-between;
+}
